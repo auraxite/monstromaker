@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=82.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monstromaker"
+version = "0.1"
+description = "Монстродел — MVP: карты и игрок"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "doit",
+    "flake8",
+    "pydocstyle",
+    "sphinx",
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["monstromaker*"]
