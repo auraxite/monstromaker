@@ -12,7 +12,7 @@ def test_i18n_locales() -> None:
 
 	setup_i18n("en_US")
 	assert _(_MSG) == "Unknown command. Enter a number or a letter."
-	assert _("\n[Enter] - начать\n") == "\n[Enter] - start\n"
+	assert _("\n[Enter] — начать\n") == "\n[Enter] - start\n"
 	assert _("Монстродел") == "Monstermaker"
 
 	setup_i18n("zz_ZZ")
