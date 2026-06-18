@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: monstromaker 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-18 03:48+0300\n"
+"POT-Creation-Date: 2026-06-18 10:45+0300\n"
 "PO-Revision-Date: 2024-01-01 00:00+0000\n"
 "Last-Translator: Монстродел Team\n"
 "Language: ru_RU\n"
@@ -37,7 +37,7 @@ msgstr "В руке нет карт."
 #: monstromaker/cli.py:144
 #, python-format
 msgid ""
-"Описание какой карты? [1–%(n)d] или [0] отмена\n"
+"Описание какой карты? [1-%(n)d] или [0] отмена\n"
 "> "
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr "  Сброс пуст - нечего брать."
 #: monstromaker/cli.py:252
 #, python-format
 msgid ""
-"  Какую карту взять? [1–%(n)d] или [0] отмена\n"
+"  Какую карту взять? [1-%(n)d] или [0] отмена\n"
 "> "
 msgstr ""
 
@@ -100,7 +100,7 @@ msgstr "  Нет других игроков."
 #: monstromaker/cli.py:290
 #, python-format
 msgid ""
-"[1–%(n)d] или [0] отмена\n"
+"[1-%(n)d] или [0] отмена\n"
 "> "
 msgstr ""
 
@@ -132,7 +132,8 @@ msgid "Монстродел"
 msgstr "Монстродел"
 
 #: monstromaker/cli.py:333
-msgid "Сколько игроков? (2–4): "
+#, fuzzy
+msgid "Сколько игроков? (2-4): "
 msgstr "Сколько игроков? (2–4): "
 
 #: monstromaker/cli.py:337
@@ -515,5 +516,20 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "%(name)s - нет облик-карт, не пострадал."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Описание какой карты? [1–%(n)d] или [0] отмена\n"
+#~ "> "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "  Какую карту взять? [1–%(n)d] или [0] отмена\n"
+#~ "> "
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[1–%(n)d] или [0] отмена\n"
+#~ "> "
 #~ msgstr ""
 

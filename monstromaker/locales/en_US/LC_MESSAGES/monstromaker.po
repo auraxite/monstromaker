@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: monstromaker 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-18 03:48+0300\n"
+"POT-Creation-Date: 2026-06-18 10:45+0300\n"
 "PO-Revision-Date: 2026-06-17 01:44+0300\n"
 "Last-Translator: Монстродел Team\n"
 "Language: en_US\n"
@@ -36,14 +36,13 @@ msgstr "No cards in hand."
 #: monstromaker/cli.py:144
 #, python-format
 msgid ""
-"Описание какой карты? [1–%(n)d] или [0] отмена\n"
+"Описание какой карты? [1-%(n)d] или [0] отмена\n"
 "> "
 msgstr ""
 "Which card to describe? [1–%(n)d] or [0] cancel\n"
 "> "
 
 #: monstromaker/cli.py:152
-#, fuzzy
 msgid ""
 "\n"
 "[Enter] — вернуться"
@@ -61,7 +60,6 @@ msgid "Нет карты с номером %(n)d."
 msgstr "No card number %(n)d."
 
 #: monstromaker/cli.py:204
-#, fuzzy
 msgid ""
 "\n"
 "[Enter] — продолжить"
@@ -83,14 +81,13 @@ msgid "  Какую облик-карту?"
 msgstr "  Which appearance card?"
 
 #: monstromaker/cli.py:247
-#, fuzzy
 msgid "  Сброс пуст — нечего брать."
 msgstr "  Discard pile is empty - nothing to take."
 
 #: monstromaker/cli.py:252
 #, python-format
 msgid ""
-"  Какую карту взять? [1–%(n)d] или [0] отмена\n"
+"  Какую карту взять? [1-%(n)d] или [0] отмена\n"
 "> "
 msgstr ""
 "  Which card to take? [1–%(n)d] or [0] cancel\n"
@@ -103,7 +100,7 @@ msgstr "  No other players."
 #: monstromaker/cli.py:290
 #, python-format
 msgid ""
-"[1–%(n)d] или [0] отмена\n"
+"[1-%(n)d] или [0] отмена\n"
 "> "
 msgstr ""
 "[1–%(n)d] or [0] cancel\n"
@@ -115,7 +112,6 @@ msgid "Порядок хода: %(order)s"
 msgstr "Turn order: %(order)s"
 
 #: monstromaker/cli.py:303
-#, fuzzy
 msgid ""
 "\n"
 "[Enter] — начать\n"
@@ -124,7 +120,6 @@ msgstr ""
 "[Enter] - start\n"
 
 #: monstromaker/cli.py:317
-#, fuzzy
 msgid ""
 "\n"
 "[Enter] — передать ход\n"
@@ -137,7 +132,7 @@ msgid "Монстродел"
 msgstr "Monstermaker"
 
 #: monstromaker/cli.py:333
-msgid "Сколько игроков? (2–4): "
+msgid "Сколько игроков? (2-4): "
 msgstr "How many players? (2–4): "
 
 #: monstromaker/cli.py:337
@@ -183,7 +178,6 @@ msgid "Добор: %(name)s %(type)s"
 msgstr "Draw: %(name)s %(type)s"
 
 #: monstromaker/display.py:110
-#, fuzzy
 msgid "Колода пуста — карта не взята"
 msgstr "Deck empty - no card drawn"
 
@@ -255,7 +249,7 @@ msgid " ПОБЕДИЛ(А)!"
 msgstr " WON!"
 
 #: monstromaker/display.py:188
-#, fuzzy, python-format
+#, python-format
 msgid "%(n)d. %(name)s — %(stars)d★ «%(level)s»%(win)s"
 msgstr "%(n)d. %(name)s - %(stars)d★ \"%(level)s\"%(win)s"
 
@@ -304,8 +298,10 @@ msgstr "%(n)d. %(name)s (+%(stars)d★)"
 
 #: monstromaker/game.py:182
 #, python-format
-msgid "%(player)s добавил к монстру: %(card)s (+%(stars)d★, +%(boost)d★ бонус!)"
-msgstr "%(player)s added to monster: %(card)s (+%(stars)d★, +%(boost)d★ bonus!)"
+msgid ""
+"%(player)s добавил к монстру: %(card)s (+%(stars)d★, +%(boost)d★ бонус!)"
+msgstr ""
+"%(player)s added to monster: %(card)s (+%(stars)d★, +%(boost)d★ bonus!)"
 
 #: monstromaker/game.py:191
 #, python-format
@@ -318,7 +314,7 @@ msgid "%(player)s сыграл %(card)s."
 msgstr "%(player)s played %(card)s."
 
 #: monstromaker/game.py:250
-#, fuzzy, python-format
+#, python-format
 msgid "%(player)s сыграл Лазер — но цель не выбрана."
 msgstr "%(player)s played Laser - but no target was chosen."
 
@@ -328,21 +324,22 @@ msgid "%(player)s использовал Лазер! %(target)s теряет: %(
 msgstr "%(player)s used Laser! %(target)s loses: %(card)s (-%(stars)d★)"
 
 #: monstromaker/game.py:267
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "%(player)s использовал Лазер! У %(target)s нет облик-карт — эффект не "
 "сработал."
 msgstr "%(player)s used Laser! %(target)s has no appearance cards - no effect."
 
 #: monstromaker/game.py:285
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "{actor} сыграл Вора — но цель не выбрана."
 msgstr "{actor} played Thief - but no target was chosen."
 
 #: monstromaker/game.py:286
 #, python-brace-format
 msgid "{actor} украл у {target}, но у того нет облик-карт."
-msgstr "{actor} tried to steal from {target}, but they have no appearance cards."
+msgstr ""
+"{actor} tried to steal from {target}, but they have no appearance cards."
 
 #: monstromaker/game.py:287
 #, python-brace-format
@@ -350,7 +347,7 @@ msgid "{actor} украл у {target} карту {card}! (+{stars}★)"
 msgstr "{actor} stole {card} from {target}! (+{stars}★)"
 
 #: monstromaker/game.py:300
-#, fuzzy, python-format
+#, python-format
 msgid "%(player)s активировал Камень усиления — следующий облик +2★!"
 msgstr "%(player)s activated Enhancement stone - next appearance +2★!"
 
@@ -369,7 +366,7 @@ msgid "%(name)s сбросил %(card)s"
 msgstr "%(name)s discarded %(card)s"
 
 #: monstromaker/game.py:355 monstromaker/game.py:460
-#, fuzzy, python-format
+#, python-format
 msgid "%(name)s — карт нет"
 msgstr "%(name)s - no cards"
 
@@ -383,7 +380,7 @@ msgid "%(player)s взревел! %(summary)s."
 msgstr "%(player)s roared! %(summary)s."
 
 #: monstromaker/game.py:375
-#, fuzzy, python-format
+#, python-format
 msgid "%(player)s использовал Шпиона — цель не выбрана."
 msgstr "%(player)s used Spy - no target was chosen."
 
@@ -393,12 +390,12 @@ msgid "%(player)s тайно изучает чью-то руку..."
 msgstr "%(player)s secretly studies someone's hand..."
 
 #: monstromaker/game.py:392
-#, fuzzy, python-format
+#, python-format
 msgid "%(player)s роется в сбросе — ничего не выбрано."
 msgstr "%(player)s rummaged in the discard pile - nothing chosen."
 
 #: monstromaker/game.py:397
-#, fuzzy, python-format
+#, python-format
 msgid "%(player)s хотел взять из сброса — сброс пуст."
 msgstr "%(player)s wanted to take from discard - pile is empty."
 
@@ -408,17 +405,17 @@ msgid "%(player)s достал из сброса: %(card)s."
 msgstr "%(player)s took from discard: %(card)s."
 
 #: monstromaker/game.py:421
-#, fuzzy, python-format
+#, python-format
 msgid "%(name)s — БРОНЕЧЕШУЯ! Щит сработал, карта цела."
 msgstr "%(name)s - ARMORSCALE! Shield worked, card saved."
 
 #: monstromaker/game.py:428
-#, fuzzy, python-format
+#, python-format
 msgid "%(name)s — нет щита! Теряет: %(card)s"
 msgstr "%(name)s - no shield! Loses: %(card)s"
 
 #: monstromaker/game.py:433
-#, fuzzy, python-format
+#, python-format
 msgid "%(name)s — нет облик-карт, не пострадал."
 msgstr "%(name)s - no appearance cards, unharmed."
 
@@ -553,4 +550,3 @@ msgstr "%(player)s passes."
 
 #~ msgid "Ужастик"
 #~ msgstr "Horror"
-
