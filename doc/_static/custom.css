@@ -1,0 +1,7 @@
+.sphinxsidebar .toctree-l1 + .toctree-l1 {
+	margin-top: 2.5em;
+}
+
+.sphinxsidebar .toctree-l1 a {
+	display: block;
+}
