@@ -1,0 +1,476 @@
+# Russian translations for Монстродел (identity - msgid is already Russian)
+# Copyright (C) 2024 Монстродел Team
+msgid ""
+msgstr ""
+"Project-Id-Version: monstromaker 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-17 11:32+0300\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Монстродел Team\n"
+"Language: ru_RU\n"
+"Language-Team: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: monstromaker/cards.py:47
+msgid "[ОБ]"
+msgstr ""
+
+#: monstromaker/cards.py:48
+msgid "[ДЕ]"
+msgstr ""
+
+#: monstromaker/cards.py:274
+msgid "Ужастик"
+msgstr ""
+
+#: monstromaker/cli.py:62
+#, python-format
+msgid "Введите число от %(lo)d до %(hi)d, или 0 для отмены."
+msgstr ""
+
+#: monstromaker/cli.py:119
+#, fuzzy, python-format
+msgid "  [Переполнение] Сброшена карта: %(name)s"
+msgstr "  [Переполнение] Сброшена карта: "
+
+#: monstromaker/cli.py:134
+msgid "Неизвестная команда. Введите число или букву."
+msgstr "Неизвестная команда. Введите число или букву."
+
+#: monstromaker/cli.py:140
+msgid "В руке нет карт."
+msgstr "В руке нет карт."
+
+#: monstromaker/cli.py:144
+#, python-format
+msgid ""
+"Описание какой карты? [1–%(n)d] или [0] отмена\n"
+"> "
+msgstr ""
+
+#: monstromaker/cli.py:152
+msgid ""
+"\n"
+"[Enter] - вернуться"
+msgstr ""
+"\n"
+"[Enter] - вернуться"
+
+#: monstromaker/cli.py:159
+msgid "Нельзя пасовать два хода подряд!"
+msgstr "Нельзя пасовать два хода подряд!"
+
+#: monstromaker/cli.py:182
+#, python-format
+msgid "Нет карты с номером %(n)d."
+msgstr ""
+
+#: monstromaker/cli.py:204
+msgid ""
+"\n"
+"[Enter] - продолжить"
+msgstr ""
+"\n"
+"[Enter] - продолжить"
+
+#: monstromaker/cli.py:220
+msgid "  Выбери игрока:"
+msgstr "  Выбери игрока:"
+
+#: monstromaker/cli.py:230
+#, python-format
+msgid "  У %(name)s нет облик-карт."
+msgstr ""
+
+#: monstromaker/cli.py:235
+msgid "  Какую облик-карту?"
+msgstr "  Какую облик-карту?"
+
+#: monstromaker/cli.py:247
+msgid "  Сброс пуст - нечего брать."
+msgstr "  Сброс пуст - нечего брать."
+
+#: monstromaker/cli.py:252
+#, python-format
+msgid ""
+"  Какую карту взять? [1–%(n)d] или [0] отмена\n"
+"> "
+msgstr ""
+
+#: monstromaker/cli.py:272
+msgid "  Нет других игроков."
+msgstr "  Нет других игроков."
+
+#: monstromaker/cli.py:290
+#, python-format
+msgid ""
+"[1–%(n)d] или [0] отмена\n"
+"> "
+msgstr ""
+
+#: monstromaker/cli.py:302
+#, python-format
+msgid "Порядок хода: %(order)s"
+msgstr ""
+
+#: monstromaker/cli.py:303
+msgid ""
+"\n"
+"[Enter] - начать\n"
+msgstr ""
+"\n"
+"[Enter] - начать\n"
+
+#: monstromaker/cli.py:317
+msgid ""
+"\n"
+"[Enter] - передать ход\n"
+msgstr ""
+"\n"
+"[Enter] - передать ход\n"
+
+#: monstromaker/cli.py:330
+msgid "Монстродел"
+msgstr "Монстродел"
+
+#: monstromaker/cli.py:333
+msgid "Сколько игроков? (2–4): "
+msgstr "Сколько игроков? (2–4): "
+
+#: monstromaker/cli.py:337
+msgid "Введите число от 2 до 4."
+msgstr "Введите число от 2 до 4."
+
+#: monstromaker/cli.py:343
+#, python-format
+msgid "Имя игрока %(n)d: "
+msgstr ""
+
+#: monstromaker/cli.py:348
+msgid "Имя не может быть пустым."
+msgstr "Имя не может быть пустым."
+
+#: monstromaker/display.py:19
+#, python-format
+msgid "МОНСТРОДЕЛ | Номер хода: %(turn)d | Колода: %(deck)d"
+msgstr ""
+
+#: monstromaker/display.py:79
+#, fuzzy
+msgid "(нет облик-карт)"
+msgstr "  Какую облик-карту?"
+
+#: monstromaker/display.py:82
+#, python-format
+msgid "%(name)s: %(stars)d★ «%(level)s»"
+msgstr ""
+
+#: monstromaker/display.py:92
+#, python-format
+msgid "Последнее: %(text)s"
+msgstr ""
+
+#: monstromaker/display.py:98
+#, python-format
+msgid "Ход: %(name)s (%(stars)d★)"
+msgstr ""
+
+#: monstromaker/display.py:103
+#, python-format
+msgid "Добор: %(name)s %(type)s"
+msgstr ""
+
+#: monstromaker/display.py:108
+msgid "Колода пуста - карта не взята"
+msgstr ""
+
+#: monstromaker/display.py:114
+msgid "ТВОИ КАРТЫ:"
+msgstr ""
+
+#: monstromaker/display.py:116 monstromaker/display.py:212
+msgid "(рука пуста)"
+msgstr ""
+
+#: monstromaker/display.py:136
+#, fuzzy
+msgid "[нет карт]"
+msgstr "В руке нет карт."
+
+#: monstromaker/display.py:137
+msgid "[п] Пас"
+msgstr ""
+
+#: monstromaker/display.py:137
+msgid "[п] Пас ✗"
+msgstr ""
+
+#: monstromaker/display.py:138
+#, python-format
+msgid "%(play)s Сыграть | [?] Описание | %(pass)s | [q] Выход"
+msgstr "%(play)s Сыграть | [?] Описание | %(pass)s | [q] Выход"
+
+#: monstromaker/display.py:147
+msgid "ОБЛИК"
+msgstr ""
+
+#: monstromaker/display.py:149
+msgid "ДЕЙСТВИЕ"
+msgstr ""
+
+#: monstromaker/display.py:152
+#, python-format
+msgid "Страшность: +%(stars)d★"
+msgstr ""
+
+#: monstromaker/display.py:154
+msgid "Щит: блокирует Пекло"
+msgstr ""
+
+#: monstromaker/display.py:163
+#, python-format
+msgid "Ход завершён: %(current)s. Далее ходит: %(next)s."
+msgstr ""
+
+#: monstromaker/display.py:170
+msgid "Сброс пуст."
+msgstr ""
+
+#: monstromaker/display.py:171
+msgid "СБРОС:"
+msgstr ""
+
+#: monstromaker/display.py:179
+msgid "ИГРА ОКОНЧЕНА!"
+msgstr ""
+
+#: monstromaker/display.py:179
+msgid "Итог:"
+msgstr ""
+
+#: monstromaker/display.py:184
+msgid " ПОБЕДИЛ(А)!"
+msgstr ""
+
+#: monstromaker/display.py:186
+#, python-format
+msgid "%(n)d. %(name)s - %(stars)d★ «%(level)s»%(win)s"
+msgstr ""
+
+#: monstromaker/display.py:201
+msgid "(нет обликов)"
+msgstr ""
+
+#: monstromaker/display.py:203
+#, python-format
+msgid "ПОБЕДИТЕЛЬ: %(name)s"
+msgstr ""
+
+#: monstromaker/display.py:204
+#, python-format
+msgid "Страшность: %(stars)d★"
+msgstr ""
+
+#: monstromaker/display.py:205
+#, python-format
+msgid "Облик: %(cards)s"
+msgstr ""
+
+#: monstromaker/display.py:210
+#, python-format
+msgid "[ШПИОН] Рука %(name)s:"
+msgstr ""
+
+#: monstromaker/display.py:238
+#, python-format
+msgid "%(n)d. %(name)s (%(stars)d★, %(cards)d карт)"
+msgstr ""
+
+#: monstromaker/display.py:247
+#, fuzzy
+msgid "(нет других игроков)"
+msgstr "  Нет других игроков."
+
+#: monstromaker/display.py:253
+#, python-format
+msgid "У %(name)s нет облик-карт."
+msgstr ""
+
+#: monstromaker/display.py:257
+#, python-format
+msgid "%(n)d. %(name)s (+%(stars)d★)"
+msgstr ""
+
+#: monstromaker/game.py:182
+#, python-format
+msgid "%(player)s добавил к монстру: %(card)s (+%(stars)d★, +%(boost)d★ бонус!)"
+msgstr ""
+
+#: monstromaker/game.py:191
+#, python-format
+msgid "%(player)s добавил к монстру: %(card)s (+%(stars)d★)"
+msgstr ""
+
+#: monstromaker/game.py:207
+#, python-format
+msgid "%(player)s сыграл %(card)s."
+msgstr ""
+
+#: monstromaker/game.py:250
+#, python-format
+msgid "%(player)s сыграл Лазер - но цель не выбрана."
+msgstr ""
+
+#: monstromaker/game.py:258
+#, python-format
+msgid "%(player)s использовал Лазер! %(target)s теряет: %(card)s (-%(stars)d★)"
+msgstr ""
+
+#: monstromaker/game.py:267
+#, python-format
+msgid ""
+"%(player)s использовал Лазер! У %(target)s нет облик-карт - эффект не "
+"сработал."
+msgstr ""
+
+#: monstromaker/game.py:285
+#, python-brace-format
+msgid "{actor} сыграл Вора - но цель не выбрана."
+msgstr ""
+
+#: monstromaker/game.py:286
+#, python-brace-format
+msgid "{actor} украл у {target}, но у того нет облик-карт."
+msgstr ""
+
+#: monstromaker/game.py:287
+#, python-brace-format
+msgid "{actor} украл у {target} карту {card}! (+{stars}★)"
+msgstr ""
+
+#: monstromaker/game.py:300
+#, python-format
+msgid "%(player)s активировал Камень усиления - следующий облик +2★!"
+msgstr ""
+
+#: monstromaker/game.py:326
+msgid "нет карт в колоде"
+msgstr ""
+
+#: monstromaker/game.py:328
+#, python-format
+msgid "%(player)s заключил сделку: взял %(drawn)s; сбросил %(discarded)s."
+msgstr ""
+
+#: monstromaker/game.py:351 monstromaker/game.py:456
+#, python-format
+msgid "%(name)s сбросил %(card)s"
+msgstr ""
+
+#: monstromaker/game.py:355 monstromaker/game.py:460
+#, python-format
+msgid "%(name)s - карт нет"
+msgstr ""
+
+#: monstromaker/game.py:356 monstromaker/game.py:436
+msgid "никто не пострадал"
+msgstr ""
+
+#: monstromaker/game.py:357
+#, python-format
+msgid "%(player)s взревел! %(summary)s."
+msgstr ""
+
+#: monstromaker/game.py:375
+#, python-format
+msgid "%(player)s использовал Шпиона - цель не выбрана."
+msgstr ""
+
+#: monstromaker/game.py:380
+#, python-format
+msgid "%(player)s тайно изучает чью-то руку..."
+msgstr ""
+
+#: monstromaker/game.py:392
+#, python-format
+msgid "%(player)s роется в сбросе - ничего не выбрано."
+msgstr ""
+
+#: monstromaker/game.py:397
+#, python-format
+msgid "%(player)s хотел взять из сброса - сброс пуст."
+msgstr ""
+
+#: monstromaker/game.py:401
+#, python-format
+msgid "%(player)s достал из сброса: %(card)s."
+msgstr ""
+
+#: monstromaker/game.py:421
+#, python-format
+msgid "%(name)s - БРОНЕЧЕШУЯ! Щит сработал, карта цела."
+msgstr ""
+
+#: monstromaker/game.py:428
+#, python-format
+msgid "%(name)s - нет щита! Теряет: %(card)s"
+msgstr ""
+
+#: monstromaker/game.py:433
+#, python-format
+msgid "%(name)s - нет облик-карт, не пострадал."
+msgstr ""
+
+#: monstromaker/game.py:437
+#, python-format
+msgid "%(player)s сыграл Пекло! %(summary)s."
+msgstr ""
+
+#: monstromaker/game.py:462
+#, python-format
+msgid "%(event)s от %(player)s! %(summary)s."
+msgstr ""
+
+#: monstromaker/game.py:463
+msgid "Экзамен по ОКам"
+msgstr ""
+
+#: monstromaker/game.py:494
+#, python-format
+msgid "%(player)s пасует."
+msgstr ""
+
+#~ msgid "Игра окончена!"
+#~ msgstr "Игра окончена!"
+
+#~ msgid "  Выбрана: "
+#~ msgstr "  Выбрана: "
+
+#~ msgid "  Сыграть? [д] Да  [н] Нет > "
+#~ msgstr "  Сыграть? [д] Да  [н] Нет > "
+
+#~ msgid "  Привет! Введи своё имя: "
+#~ msgstr "  Привет! Введи своё имя: "
+
+#~ msgid ""
+#~ "\n"
+#~ "  [Только ты видишь это] Нажми Enter для просмотра > "
+#~ msgstr ""
+#~ "\n"
+#~ "  [Только ты видишь это] Нажми Enter для просмотра > "
+
+#~ msgid ""
+#~ "\n"
+#~ "[Enter] - закончить просмотр"
+#~ msgstr ""
+#~ "\n"
+#~ "[Enter] - закончить просмотр"
+
+#~ msgid "%(play)s Сыграть | [?] Описание | %(pass)s"
+#~ msgstr ""
+
